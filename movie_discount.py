@@ -4,7 +4,7 @@ x = input("Enter your age: ")
 y = input("Are you student? (yes/no): ")
 if x <= "12" :
         print("you are eligible for the discount on movie ticket")
-elif x >= "13" and x <= "18" and y == "yes" :
+elif (x >= "13" or x <= "18") and y == "yes" :
         print("you are eligible for the discount for movie ticket") 
 else :
         print("you are not eligible for the movie discount ticket ")  

@@ -5,7 +5,7 @@ print("Class Excercise")
 students_list = []
 students_dict = {}
 
-while True: 
+while True: # while loop ghi dhi continues unless its false
     name = input("Enter students's name (or type 'done' to finish): ")
     if name.lower() == 'done':
         break
